@@ -11,6 +11,7 @@ State Management merupakan salah satu komponen penting dalam pengembangan suatu 
 
 ---
 ## **Perbedaan Utama**
+Adapun perbedaan utama ketika kita menggunakan `StatefulWidget` dan `scoped_models` sebagai berikut:
 | **Karakteristik**       | **Ephemeral State (StatefulWidget)**                          | **App State (Scoped Model)**                                 |
 |--------------------------|--------------------------------------------------------------|-------------------------------------------------------------|
 | **Penggunaan**           | Digunakan untuk state lokal sementara dalam satu widget.      | Digunakan untuk state global yang dibagikan antar widget.    |
