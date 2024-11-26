@@ -21,3 +21,5 @@ Adapun perbedaan utama ketika kita menggunakan `StatefulWidget` dan `scoped_mode
 | **Kompleksitas**         | Mudah diterapkan untuk kebutuhan sederhana.                  | Lebih kompleks tetapi sangat fleksibel untuk aplikasi besar. |
 
 ---
+## **Kesimpulan**
+Kesimpulannya yaitu bahwa Ephemeral State Management cocok untuk kasus sederhana dengan state lokal yang sementara. Namun, App State Management seperti `scoped_model` lebih kuat dan fleksibel untuk aplikasi yang berskala besar dan kompleks. Dengan menggunakan Scoped Model, developer dapat mengelola state aplikasi secara efisien dan terstruktur, terutama dalam kasus penggunaan seperti **user authentication*, keranjang belanja (**shopping cart*), atau data global lainnya
